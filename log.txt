@@ -1,0 +1,7 @@
+开发日志
+2019.5.27
+持久层框架选型 ：复杂的查询 极致速度要求的互联网项目 用mybatis 简单项目用spring data jpa
+spring data jpa 简单使用： 引包后 实体操作接口（service）继承JpaRepository<实体，id类型> 使用框架的基本方法
+mybatis 简单使用：引包 注解@MapperScan("com.example.base.mapper")扫描
+微服务松耦合 推荐用jpa 有复杂的业务模式用mabatis
+mybatis-plus 代码生成器 引入包 看了下若依的代码 决定先转到学习若依项目上
